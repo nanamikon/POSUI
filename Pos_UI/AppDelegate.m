@@ -18,8 +18,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.layoutViewController = [[LayoutViewController alloc] initWithNibName:@"LayoutViewController" bundle:nil];
+    self.window.rootViewController = self.layoutViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
@@ -49,6 +53,11 @@
 {
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+}
+     
+- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+        return UIInterfaceOrientationMaskLandscape;
 }
 
 - (void)saveContext
