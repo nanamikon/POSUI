@@ -22,6 +22,17 @@
 		3246F46F192B2A3F0021B8F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3246F453192B2A3F0021B8F8 /* CoreData.framework */; };
 		3246F477192B2A3F0021B8F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3246F475192B2A3F0021B8F8 /* InfoPlist.strings */; };
 		3246F479192B2A3F0021B8F8 /* Pos_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3246F478192B2A3F0021B8F8 /* Pos_UITests.m */; };
+		3246F485192B2B0A0021B8F8 /* LayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3246F483192B2B0A0021B8F8 /* LayoutViewController.m */; };
+		3246F486192B2B0A0021B8F8 /* LayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3246F484192B2B0A0021B8F8 /* LayoutViewController.xib */; };
+		3246F49B192B9C1B0021B8F8 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3246F49A192B9C1B0021B8F8 /* View.xib */; };
+		329DA5E919343DC9000FB9D5 /* NITableViewCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 329DA5E819343DC9000FB9D5 /* NITableViewCellFactory.m */; };
+		32A1D8351933111E004589EA /* MealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1D8341933111E004589EA /* MealCell.m */; };
+		32A1D83719331135004589EA /* MealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A1D83619331135004589EA /* MealCell.xib */; };
+		32BC17F11934764C0032AF52 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BC17F01934764C0032AF52 /* pinyin.c */; };
+		32BC17F4193479C90032AF52 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC17F3193479C90032AF52 /* PinyinHelper.m */; };
+		32F907D519342D2200163DEA /* MealOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F907D419342D2200163DEA /* MealOrderCell.m */; };
+		32F907D719342D3E00163DEA /* MealOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F907D619342D3E00163DEA /* MealOrderCell.xib */; };
+		4D4CB2F43B4444A98B26D809 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA855218451490FB6439866 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,24 @@
 		3246F474192B2A3F0021B8F8 /* Pos_UITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pos_UITests-Info.plist"; sourceTree = "<group>"; };
 		3246F476192B2A3F0021B8F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3246F478192B2A3F0021B8F8 /* Pos_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pos_UITests.m; sourceTree = "<group>"; };
+		3246F482192B2B0A0021B8F8 /* LayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutViewController.h; sourceTree = "<group>"; };
+		3246F483192B2B0A0021B8F8 /* LayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutViewController.m; sourceTree = "<group>"; };
+		3246F484192B2B0A0021B8F8 /* LayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutViewController.xib; sourceTree = "<group>"; };
+		3246F49A192B9C1B0021B8F8 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		329DA5E719343DC9000FB9D5 /* NITableViewCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NITableViewCellFactory.h; sourceTree = "<group>"; };
+		329DA5E819343DC9000FB9D5 /* NITableViewCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NITableViewCellFactory.m; sourceTree = "<group>"; };
+		32A1D8331933111E004589EA /* MealCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealCell.h; sourceTree = "<group>"; };
+		32A1D8341933111E004589EA /* MealCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealCell.m; sourceTree = "<group>"; };
+		32A1D83619331135004589EA /* MealCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealCell.xib; sourceTree = "<group>"; };
+		32BC17EF193476350032AF52 /* pinyin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		32BC17F01934764C0032AF52 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		32BC17F2193479C90032AF52 /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		32BC17F3193479C90032AF52 /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		32F907D319342D2200163DEA /* MealOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealOrderCell.h; sourceTree = "<group>"; };
+		32F907D419342D2200163DEA /* MealOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealOrderCell.m; sourceTree = "<group>"; };
+		32F907D619342D3E00163DEA /* MealOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealOrderCell.xib; sourceTree = "<group>"; };
+		BDA855218451490FB6439866 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F723B97F727C4E54A3793183 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +93,7 @@
 				3246F454192B2A3F0021B8F8 /* CoreData.framework in Frameworks */,
 				3246F452192B2A3F0021B8F8 /* UIKit.framework in Frameworks */,
 				3246F44E192B2A3F0021B8F8 /* Foundation.framework in Frameworks */,
+				4D4CB2F43B4444A98B26D809 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +111,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3219A4DD1932F50700F36508 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				32BC17EB193475DB0032AF52 /* pinyin */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
 		3246F441192B2A3F0021B8F8 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +126,7 @@
 				3246F472192B2A3F0021B8F8 /* Pos_UITests */,
 				3246F44C192B2A3F0021B8F8 /* Frameworks */,
 				3246F44B192B2A3F0021B8F8 /* Products */,
+				F723B97F727C4E54A3793183 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +147,7 @@
 				3246F451192B2A3F0021B8F8 /* UIKit.framework */,
 				3246F453192B2A3F0021B8F8 /* CoreData.framework */,
 				3246F46B192B2A3F0021B8F8 /* XCTest.framework */,
+				BDA855218451490FB6439866 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,10 +155,12 @@
 		3246F455192B2A3F0021B8F8 /* Pos_UI */ = {
 			isa = PBXGroup;
 			children = (
-				3246F45E192B2A3F0021B8F8 /* AppDelegate.h */,
-				3246F45F192B2A3F0021B8F8 /* AppDelegate.m */,
-				3246F464192B2A3F0021B8F8 /* Images.xcassets */,
-				3246F461192B2A3F0021B8F8 /* Pos_UI.xcdatamodeld */,
+				3246F48E192B402C0021B8F8 /* AppDelegate */,
+				3246F48B192B3DF30021B8F8 /* Sections */,
+				3246F487192B2C410021B8F8 /* Models */,
+				3246F48C192B3FE70021B8F8 /* General */,
+				3246F48D192B400E0021B8F8 /* Helpers */,
+				3219A4DD1932F50700F36508 /* Vendors */,
 				3246F456192B2A3F0021B8F8 /* Supporting Files */,
 			);
 			path = Pos_UI;
@@ -127,6 +169,7 @@
 		3246F456192B2A3F0021B8F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3246F48F192B405C0021B8F8 /* Resource */,
 				3246F457192B2A3F0021B8F8 /* Pos_UI-Info.plist */,
 				3246F458192B2A3F0021B8F8 /* InfoPlist.strings */,
 				3246F45B192B2A3F0021B8F8 /* main.m */,
@@ -153,6 +196,115 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3246F487192B2C410021B8F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				329DA5E619343D79000FB9D5 /* Factory */,
+				3246F461192B2A3F0021B8F8 /* Pos_UI.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3246F48B192B3DF30021B8F8 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				3246F490192B40C30021B8F8 /* XIB */,
+				3246F482192B2B0A0021B8F8 /* LayoutViewController.h */,
+				3246F483192B2B0A0021B8F8 /* LayoutViewController.m */,
+				3246F49A192B9C1B0021B8F8 /* View.xib */,
+				32A1D8331933111E004589EA /* MealCell.h */,
+				32A1D8341933111E004589EA /* MealCell.m */,
+				32A1D83619331135004589EA /* MealCell.xib */,
+				32F907D319342D2200163DEA /* MealOrderCell.h */,
+				32F907D419342D2200163DEA /* MealOrderCell.m */,
+				32F907D619342D3E00163DEA /* MealOrderCell.xib */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		3246F48C192B3FE70021B8F8 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				32A1D83219330F16004589EA /* Categories */,
+				32A1D83119330F00004589EA /* Views */,
+				32A1D83019330EC2004589EA /* Classes */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		3246F48D192B400E0021B8F8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				32BC17F2193479C90032AF52 /* PinyinHelper.h */,
+				32BC17F3193479C90032AF52 /* PinyinHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		3246F48E192B402C0021B8F8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3246F45E192B2A3F0021B8F8 /* AppDelegate.h */,
+				3246F45F192B2A3F0021B8F8 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3246F48F192B405C0021B8F8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3246F464192B2A3F0021B8F8 /* Images.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		3246F490192B40C30021B8F8 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				3246F484192B2B0A0021B8F8 /* LayoutViewController.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		329DA5E619343D79000FB9D5 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				329DA5E719343DC9000FB9D5 /* NITableViewCellFactory.h */,
+				329DA5E819343DC9000FB9D5 /* NITableViewCellFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		32A1D83019330EC2004589EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32A1D83119330F00004589EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		32A1D83219330F16004589EA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		32BC17EB193475DB0032AF52 /* pinyin */ = {
+			isa = PBXGroup;
+			children = (
+				32BC17EF193476350032AF52 /* pinyin.h */,
+				32BC17F01934764C0032AF52 /* pinyin.c */,
+			);
+			name = pinyin;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3246F47C192B2A3F0021B8F8 /* Build configuration list for PBXNativeTarget "Pos_UI" */;
 			buildPhases = (
+				154E9B25F9574DFBB57B3746 /* Check Pods Manifest.lock */,
 				3246F446192B2A3F0021B8F8 /* Sources */,
 				3246F447192B2A3F0021B8F8 /* Frameworks */,
 				3246F448192B2A3F0021B8F8 /* Resources */,
+				ED866A093DF745FB8AC2C49C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,6 +382,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3246F49B192B9C1B0021B8F8 /* View.xib in Resources */,
+				3246F486192B2B0A0021B8F8 /* LayoutViewController.xib in Resources */,
+				32A1D83719331135004589EA /* MealCell.xib in Resources */,
+				32F907D719342D3E00163DEA /* MealOrderCell.xib in Resources */,
 				3246F45A192B2A3F0021B8F8 /* InfoPlist.strings in Resources */,
 				3246F465192B2A3F0021B8F8 /* Images.xcassets in Resources */,
 			);
@@ -243,13 +401,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		154E9B25F9574DFBB57B3746 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED866A093DF745FB8AC2C49C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3246F446192B2A3F0021B8F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BC17F4193479C90032AF52 /* PinyinHelper.m in Sources */,
+				32BC17F11934764C0032AF52 /* pinyin.c in Sources */,
 				3246F460192B2A3F0021B8F8 /* AppDelegate.m in Sources */,
+				32F907D519342D2200163DEA /* MealOrderCell.m in Sources */,
+				32A1D8351933111E004589EA /* MealCell.m in Sources */,
 				3246F463192B2A3F0021B8F8 /* Pos_UI.xcdatamodeld in Sources */,
+				329DA5E919343DC9000FB9D5 /* NITableViewCellFactory.m in Sources */,
+				3246F485192B2B0A0021B8F8 /* LayoutViewController.m in Sources */,
 				3246F45C192B2A3F0021B8F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +563,7 @@
 		};
 		3246F47D192B2A3F0021B8F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F723B97F727C4E54A3793183 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -373,12 +571,14 @@
 				GCC_PREFIX_HEADER = "Pos_UI/Pos_UI-Prefix.pch";
 				INFOPLIST_FILE = "Pos_UI/Pos_UI-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		3246F47E192B2A3F0021B8F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F723B97F727C4E54A3793183 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +586,7 @@
 				GCC_PREFIX_HEADER = "Pos_UI/Pos_UI-Prefix.pch";
 				INFOPLIST_FILE = "Pos_UI/Pos_UI-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -449,6 +650,7 @@
 				3246F47E192B2A3F0021B8F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3246F47F192B2A3F0021B8F8 /* Build configuration list for PBXNativeTarget "Pos_UITests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +659,7 @@
 				3246F481192B2A3F0021B8F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
