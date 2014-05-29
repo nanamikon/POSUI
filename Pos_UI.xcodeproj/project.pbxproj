@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321E92411936C888002891EA /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E92401936C888002891EA /* KeyboardView.m */; };
+		3235F6661935D00400D5032C /* CashierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235F6651935D00400D5032C /* CashierView.m */; };
 		3246F44E192B2A3F0021B8F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3246F44D192B2A3F0021B8F8 /* Foundation.framework */; };
 		3246F450192B2A3F0021B8F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3246F44F192B2A3F0021B8F8 /* CoreGraphics.framework */; };
 		3246F452192B2A3F0021B8F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3246F451192B2A3F0021B8F8 /* UIKit.framework */; };
@@ -25,13 +27,20 @@
 		3246F485192B2B0A0021B8F8 /* LayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3246F483192B2B0A0021B8F8 /* LayoutViewController.m */; };
 		3246F486192B2B0A0021B8F8 /* LayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3246F484192B2B0A0021B8F8 /* LayoutViewController.xib */; };
 		3246F49B192B9C1B0021B8F8 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3246F49A192B9C1B0021B8F8 /* View.xib */; };
+		328DFDE81935CBDF001EA850 /* CashierView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328DFDE71935CBDF001EA850 /* CashierView.xib */; };
 		329DA5E919343DC9000FB9D5 /* NITableViewCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 329DA5E819343DC9000FB9D5 /* NITableViewCellFactory.m */; };
+		329F5FC61936FE62003ABE2A /* CustomPlaceHolderUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 329F5FC51936FE62003ABE2A /* CustomPlaceHolderUIView.m */; };
+		329F5FCC19371DA1003ABE2A /* MealOrderBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 329F5FCB19371DA1003ABE2A /* MealOrderBill.m */; };
 		32A1D8351933111E004589EA /* MealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1D8341933111E004589EA /* MealCell.m */; };
 		32A1D83719331135004589EA /* MealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A1D83619331135004589EA /* MealCell.xib */; };
+		32A90A5119359C380018DFB7 /* MealCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A90A5019359C380018DFB7 /* MealCategory.m */; };
+		32A90A5319359C470018DFB7 /* MealCategory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A90A5219359C470018DFB7 /* MealCategory.xib */; };
 		32BC17F11934764C0032AF52 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BC17F01934764C0032AF52 /* pinyin.c */; };
 		32BC17F4193479C90032AF52 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC17F3193479C90032AF52 /* PinyinHelper.m */; };
+		32BC17F719349D520032AF52 /* NIMutableCollectionViewModel+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC17F619349D520032AF52 /* NIMutableCollectionViewModel+Filter.m */; };
 		32F907D519342D2200163DEA /* MealOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F907D419342D2200163DEA /* MealOrderCell.m */; };
 		32F907D719342D3E00163DEA /* MealOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F907D619342D3E00163DEA /* MealOrderCell.xib */; };
+		32FF558E1935C1D1002B3EA1 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FF558D1935C1D1002B3EA1 /* KeyboardView.xib */; };
 		4D4CB2F43B4444A98B26D809 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA855218451490FB6439866 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		321E923F1936C888002891EA /* KeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardView.h; sourceTree = "<group>"; };
+		321E92401936C888002891EA /* KeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardView.m; sourceTree = "<group>"; };
+		3235F6641935D00400D5032C /* CashierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashierView.h; sourceTree = "<group>"; };
+		3235F6651935D00400D5032C /* CashierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashierView.m; sourceTree = "<group>"; };
 		3246F44A192B2A3F0021B8F8 /* Pos_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pos_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3246F44D192B2A3F0021B8F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3246F44F192B2A3F0021B8F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,18 +81,29 @@
 		3246F483192B2B0A0021B8F8 /* LayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutViewController.m; sourceTree = "<group>"; };
 		3246F484192B2B0A0021B8F8 /* LayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutViewController.xib; sourceTree = "<group>"; };
 		3246F49A192B9C1B0021B8F8 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		328DFDE71935CBDF001EA850 /* CashierView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CashierView.xib; sourceTree = "<group>"; };
 		329DA5E719343DC9000FB9D5 /* NITableViewCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NITableViewCellFactory.h; sourceTree = "<group>"; };
 		329DA5E819343DC9000FB9D5 /* NITableViewCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NITableViewCellFactory.m; sourceTree = "<group>"; };
+		329F5FC41936FE62003ABE2A /* CustomPlaceHolderUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPlaceHolderUIView.h; sourceTree = "<group>"; };
+		329F5FC51936FE62003ABE2A /* CustomPlaceHolderUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPlaceHolderUIView.m; sourceTree = "<group>"; };
+		329F5FCA19371DA1003ABE2A /* MealOrderBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealOrderBill.h; sourceTree = "<group>"; };
+		329F5FCB19371DA1003ABE2A /* MealOrderBill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealOrderBill.m; sourceTree = "<group>"; };
 		32A1D8331933111E004589EA /* MealCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealCell.h; sourceTree = "<group>"; };
 		32A1D8341933111E004589EA /* MealCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealCell.m; sourceTree = "<group>"; };
 		32A1D83619331135004589EA /* MealCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealCell.xib; sourceTree = "<group>"; };
+		32A90A4F19359C380018DFB7 /* MealCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealCategory.h; sourceTree = "<group>"; };
+		32A90A5019359C380018DFB7 /* MealCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealCategory.m; sourceTree = "<group>"; };
+		32A90A5219359C470018DFB7 /* MealCategory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealCategory.xib; sourceTree = "<group>"; };
 		32BC17EF193476350032AF52 /* pinyin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
 		32BC17F01934764C0032AF52 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
 		32BC17F2193479C90032AF52 /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
 		32BC17F3193479C90032AF52 /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		32BC17F519349D520032AF52 /* NIMutableCollectionViewModel+Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIMutableCollectionViewModel+Filter.h"; sourceTree = "<group>"; };
+		32BC17F619349D520032AF52 /* NIMutableCollectionViewModel+Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NIMutableCollectionViewModel+Filter.m"; sourceTree = "<group>"; };
 		32F907D319342D2200163DEA /* MealOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealOrderCell.h; sourceTree = "<group>"; };
 		32F907D419342D2200163DEA /* MealOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealOrderCell.m; sourceTree = "<group>"; };
 		32F907D619342D3E00163DEA /* MealOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealOrderCell.xib; sourceTree = "<group>"; };
+		32FF558D1935C1D1002B3EA1 /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
 		BDA855218451490FB6439866 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F723B97F727C4E54A3793183 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +141,15 @@
 				32BC17EB193475DB0032AF52 /* pinyin */,
 			);
 			name = Vendors;
+			sourceTree = "<group>";
+		};
+		321E92451936DAF5002891EA /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				328DFDE71935CBDF001EA850 /* CashierView.xib */,
+				32FF558D1935C1D1002B3EA1 /* KeyboardView.xib */,
+			);
+			name = XIB;
 			sourceTree = "<group>";
 		};
 		3246F441192B2A3F0021B8F8 = {
@@ -201,6 +234,8 @@
 			children = (
 				329DA5E619343D79000FB9D5 /* Factory */,
 				3246F461192B2A3F0021B8F8 /* Pos_UI.xcdatamodeld */,
+				329F5FCA19371DA1003ABE2A /* MealOrderBill.h */,
+				329F5FCB19371DA1003ABE2A /* MealOrderBill.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -218,6 +253,9 @@
 				32F907D319342D2200163DEA /* MealOrderCell.h */,
 				32F907D419342D2200163DEA /* MealOrderCell.m */,
 				32F907D619342D3E00163DEA /* MealOrderCell.xib */,
+				32A90A4F19359C380018DFB7 /* MealCategory.h */,
+				32A90A5019359C380018DFB7 /* MealCategory.m */,
+				32A90A5219359C470018DFB7 /* MealCategory.xib */,
 			);
 			name = Sections;
 			sourceTree = "<group>";
@@ -278,6 +316,8 @@
 		32A1D83019330EC2004589EA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				329F5FC41936FE62003ABE2A /* CustomPlaceHolderUIView.h */,
+				329F5FC51936FE62003ABE2A /* CustomPlaceHolderUIView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -285,6 +325,11 @@
 		32A1D83119330F00004589EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				321E92451936DAF5002891EA /* XIB */,
+				3235F6641935D00400D5032C /* CashierView.h */,
+				3235F6651935D00400D5032C /* CashierView.m */,
+				321E923F1936C888002891EA /* KeyboardView.h */,
+				321E92401936C888002891EA /* KeyboardView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -292,6 +337,8 @@
 		32A1D83219330F16004589EA /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				32BC17F519349D520032AF52 /* NIMutableCollectionViewModel+Filter.h */,
+				32BC17F619349D520032AF52 /* NIMutableCollectionViewModel+Filter.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -384,9 +431,12 @@
 			files = (
 				3246F49B192B9C1B0021B8F8 /* View.xib in Resources */,
 				3246F486192B2B0A0021B8F8 /* LayoutViewController.xib in Resources */,
+				32A90A5319359C470018DFB7 /* MealCategory.xib in Resources */,
 				32A1D83719331135004589EA /* MealCell.xib in Resources */,
 				32F907D719342D3E00163DEA /* MealOrderCell.xib in Resources */,
 				3246F45A192B2A3F0021B8F8 /* InfoPlist.strings in Resources */,
+				32FF558E1935C1D1002B3EA1 /* KeyboardView.xib in Resources */,
+				328DFDE81935CBDF001EA850 /* CashierView.xib in Resources */,
 				3246F465192B2A3F0021B8F8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,12 +490,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				32BC17F4193479C90032AF52 /* PinyinHelper.m in Sources */,
+				329F5FCC19371DA1003ABE2A /* MealOrderBill.m in Sources */,
 				32BC17F11934764C0032AF52 /* pinyin.c in Sources */,
 				3246F460192B2A3F0021B8F8 /* AppDelegate.m in Sources */,
+				32A90A5119359C380018DFB7 /* MealCategory.m in Sources */,
 				32F907D519342D2200163DEA /* MealOrderCell.m in Sources */,
+				32BC17F719349D520032AF52 /* NIMutableCollectionViewModel+Filter.m in Sources */,
+				3235F6661935D00400D5032C /* CashierView.m in Sources */,
 				32A1D8351933111E004589EA /* MealCell.m in Sources */,
 				3246F463192B2A3F0021B8F8 /* Pos_UI.xcdatamodeld in Sources */,
 				329DA5E919343DC9000FB9D5 /* NITableViewCellFactory.m in Sources */,
+				321E92411936C888002891EA /* KeyboardView.m in Sources */,
+				329F5FC61936FE62003ABE2A /* CustomPlaceHolderUIView.m in Sources */,
 				3246F485192B2B0A0021B8F8 /* LayoutViewController.m in Sources */,
 				3246F45C192B2A3F0021B8F8 /* main.m in Sources */,
 			);
